@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Løbetempo Beregner – Find Din Pace | LøbePace.dk</title>
+    <meta name="description" content="Beregn nemt din løbetempo, distance eller tid. Få alle dine løbedata hurtigt – perfekt til danske løbere og Strava-brugere." />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Open Graph (valgfrit) -->
+    <meta property="og:title" content="Løbetempo Beregner – Find Din Pace | LøbePace.dk" />
+    <meta property="og:description" content="Beregn nemt din løbetempo, distance eller tid. Få alle dine løbedata hurtigt – perfekt til danske løbere og Strava-brugere." />
+    <meta property="og:type" content="website" />
+
+    <!-- Dark mode initialisering uden FOUC -->
+    <script>
+      try {
+        const saved = localStorage.getItem('theme');
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const isDark = saved ? saved === 'dark' : systemPrefersDark;
+        if (isDark) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
+
+    <!-- JSON-LD strukturerede data (dansk) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Calculator",
+        "name": "Løbetempo Beregner – Find Din Pace | LøbePace.dk",
+        "description": "Beregn nemt din løbetempo, distance eller tid. Få alle dine løbedata hurtigt – perfekt til danske løbere og Strava-brugere.",
+        "inLanguage": "da",
+        "applicationCategory": "FitnessApplication",
+        "url": "https://lobepace.dk",
+        "isAccessibleForFree": true
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-DOy8INZD.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BZzsTdkI.css">
+  </head>
+  <body class="bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <div id="root"></div>
+  </body>
+</html>
